@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maxim Ride - Taxi Booking App Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">Maxim<span>Ride</span></div>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#fleet">Fleet</a></li>
+            <li><a href="#safety">Safety</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+          <button class="cta cta--outline">Partner with us</button>
+        </nav>
+        <div class="hero">
+          <div class="hero__content">
+            <h1>Book rides that keep you moving</h1>
+            <p>
+              Request a ride in seconds, track your driver in real time, and pay
+              how you want. MaximRide brings the familiar Maxim experience into
+              a modern web app.
+            </p>
+            <div class="hero__actions">
+              <button class="cta">Book a ride</button>
+              <button class="cta cta--ghost">Explore services</button>
+            </div>
+            <div class="hero__stats">
+              <div>
+                <span class="hero__stat">4.9</span>
+                <span class="hero__label">App Store rating</span>
+              </div>
+              <div>
+                <span class="hero__stat">90+</span>
+                <span class="hero__label">Cities worldwide</span>
+              </div>
+              <div>
+                <span class="hero__stat">24/7</span>
+                <span class="hero__label">Support team</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="phone">
+              <div class="phone__status-bar">
+                <span>9:41</span>
+                <div class="phone__icons">
+                  <span>📶</span>
+                  <span>📡</span>
+                  <span>🔋</span>
+                </div>
+              </div>
+              <div class="phone__map">
+                <div class="map__driver">🚕</div>
+                <div class="map__destination">📍</div>
+              </div>
+              <div class="phone__card">
+                <div class="card__route">
+                  <div>
+                    <span class="label">Pickup</span>
+                    <strong>Current location</strong>
+                  </div>
+                  <div>
+                    <span class="label">Drop-off</span>
+                    <strong>Central Business Hub</strong>
+                  </div>
+                </div>
+                <div class="card__driver">
+                  <div class="driver__info">
+                    <img src="https://i.pravatar.cc/60" alt="Driver" />
+                    <div>
+                      <strong>Olivia Scott</strong>
+                      <span>Hyundai Elantra • GJ 07 AB 4251</span>
+                    </div>
+                  </div>
+                  <button class="cta cta--small">Call</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="services" class="section section--grid">
+        <div class="container">
+          <div class="section__header">
+            <span class="eyebrow">Why MaximRide</span>
+            <h2>Designed to feel like the Maxim app you already know</h2>
+            <p>
+              A focused interface, reliable drivers, and flexible payments keep
+              your daily commute and weekend plans running smoothly.
+            </p>
+          </div>
+          <div class="grid grid--3">
+            <article class="card">
+              <div class="card__icon">📍</div>
+              <h3>Real-time tracking</h3>
+              <p>
+                Live driver tracking with smart ETAs so you know exactly when to
+                step outside.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon">💳</div>
+              <h3>Flexible payments</h3>
+              <p>
+                Pay with cash, card, Maxim wallet or corporate billing in a
+                single tap.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon">🛡️</div>
+              <h3>Safety first</h3>
+              <p>
+                Trip sharing, emergency assistance, and driver background checks
+                keep every ride secure.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="fleet" class="section section--alt">
+        <div class="container">
+          <div class="section__header">
+            <span class="eyebrow">Choose your ride</span>
+            <h2>Fleet options for every occasion</h2>
+          </div>
+          <div class="grid grid--3">
+            <article class="fleet-card">
+              <div class="fleet-card__badge">Budget</div>
+              <h3>Maxim Saver</h3>
+              <p>Everyday rides with upfront pricing and reliable drivers.</p>
+              <ul>
+                <li>Up to 3 passengers</li>
+                <li>Air-conditioned sedans</li>
+                <li>In-app chat support</li>
+              </ul>
+            </article>
+            <article class="fleet-card">
+              <div class="fleet-card__badge fleet-card__badge--highlight">
+                Popular
+              </div>
+              <h3>Maxim Comfort</h3>
+              <p>Premium sedans and SUVs for when you want extra space.</p>
+              <ul>
+                <li>Up to 4 passengers</li>
+                <li>Bottled water onboard</li>
+                <li>Priority pickup</li>
+              </ul>
+            </article>
+            <article class="fleet-card">
+              <div class="fleet-card__badge">XL</div>
+              <h3>Maxim XL</h3>
+              <p>Room for the whole crew with spacious vans and MPVs.</p>
+              <ul>
+                <li>Up to 6 passengers</li>
+                <li>Fold-flat seating</li>
+                <li>Oversized luggage friendly</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="safety" class="section">
+        <div class="container">
+          <div class="safety">
+            <div class="safety__content">
+              <span class="eyebrow">Safety toolkit</span>
+              <h2>Support at every stage of the trip</h2>
+              <p>
+                Share trips with loved ones, reach our 24/7 support line, and use
+                the in-app emergency button if you need quick assistance.
+              </p>
+              <div class="safety__features">
+                <div>
+                  <strong>Trip sharing</strong>
+                  <p>Automatically share your live route with trusted contacts.</p>
+                </div>
+                <div>
+                  <strong>Driver screening</strong>
+                  <p>Every partner completes background and vehicle checks.</p>
+                </div>
+                <div>
+                  <strong>Incident response</strong>
+                  <p>Dedicated safety team ready to help around the clock.</p>
+                </div>
+              </div>
+            </div>
+            <div class="safety__media">
+              <img
+                src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80"
+                alt="Passenger in the back seat of a car"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" class="section section--alt">
+        <div class="container">
+          <div class="download">
+            <div class="download__content">
+              <span class="eyebrow">Get the app</span>
+              <h2>Experience Maxim wherever you go</h2>
+              <p>
+                Continue booking rides on iOS and Android with the same account.
+                Sync favorite addresses, saved drivers, and payment methods.
+              </p>
+              <div class="download__badges">
+                <a href="#" class="store-badge">
+                  <span>Download on the</span>
+                  <strong>App Store</strong>
+                </a>
+                <a href="#" class="store-badge store-badge--dark">
+                  <span>Get it on</span>
+                  <strong>Google Play</strong>
+                </a>
+              </div>
+            </div>
+            <div class="download__card">
+              <h3>Ride summary</h3>
+              <p>Track expenses with monthly ride breakdowns.</p>
+              <div class="download__chart">
+                <div style="--value: 70"><span>Jan</span></div>
+                <div style="--value: 45"><span>Feb</span></div>
+                <div style="--value: 85"><span>Mar</span></div>
+                <div style="--value: 60"><span>Apr</span></div>
+              </div>
+              <button class="cta cta--full">Create account</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <div class="logo">Maxim<span>Ride</span></div>
+          <p>Reliable city rides, intercity trips, and delivery on demand.</p>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow us</h4>
+          <ul class="social">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__legal">© 2024 MaximRide. Inspired by Maxim.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
